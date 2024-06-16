@@ -71,7 +71,7 @@ The Person data model represents information about staff members in the hotel.
         - *salary*: Number (Person's salary)
 
 
-## Usage/Examples
+## Examples
 
 ```javascript
 {
@@ -101,7 +101,7 @@ The MenuItem data model represents information about menu items available in the
 
 
 
-## Usage/Examples
+## Examples
 
 ```javascript
 {
