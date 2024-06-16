@@ -8,7 +8,7 @@ const personRouter=require("./routes/personRoutes");
 const menuRouter=require("./routes/menuRoutes");
 require('dotenv').config();
 
-const port=process.env.port||3000;
+const port=process.env.port;
 app.use("/person",personRouter);
 app.use("/menu",menuRouter);
 

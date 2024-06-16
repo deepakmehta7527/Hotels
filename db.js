@@ -3,15 +3,7 @@ require("dotenv").config();
 // const mongodbUrl = process.env.db_LocalUrl; //local url database
 const mongodbUrl = process.env.db_url; //online url database
 
-mongoose.connect(
-  mongodbUrl,
-     {     //with any version it will able to work
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
-
-
+mongoose.connect(mongodbUrl);
 
 const db = mongoose.connection;
 
