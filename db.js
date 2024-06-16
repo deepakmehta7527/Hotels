@@ -3,7 +3,7 @@ require("dotenv").config();
 // const mongodbUrl = process.env.db_LocalUrl; //local url database
 const mongodbUrl = process.env.db_url; //online url database
 
-mongoose.set("strictQuery", false);
+mongoose.set("strictQuery", true);
 
 mongoose.connect(mongodbUrl);
 
