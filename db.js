@@ -5,11 +5,13 @@ const mongodbUrl = process.env.db_url; //online url database
 
 mongoose.connect(
   mongodbUrl,
-  //    {     //with any version it will able to work
-  //   useNewUrlParser: true,
-  //   useUnifiedTopology: true,
-  // }
+     {     //with any version it will able to work
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
 );
+
+
 
 const db = mongoose.connection;
 
